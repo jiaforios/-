@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC0E546F1D2B94CF00762F5A /* ZYQAssetPicker.Bundle in Resources */ = {isa = PBXBuildFile; fileRef = BC0E546C1D2B94CF00762F5A /* ZYQAssetPicker.Bundle */; };
+		BC0E54701D2B94CF00762F5A /* ZYQAssetPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0E546E1D2B94CF00762F5A /* ZYQAssetPickerController.m */; };
+		BC0E547F1D2B951500762F5A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0E54731D2B951500762F5A /* AFHTTPSessionManager.m */; };
+		BC0E54801D2B951500762F5A /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0E54761D2B951500762F5A /* AFNetworkReachabilityManager.m */; };
+		BC0E54811D2B951500762F5A /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0E54781D2B951500762F5A /* AFSecurityPolicy.m */; };
+		BC0E54821D2B951500762F5A /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0E547A1D2B951500762F5A /* AFURLRequestSerialization.m */; };
+		BC0E54831D2B951500762F5A /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0E547C1D2B951500762F5A /* AFURLResponseSerialization.m */; };
+		BC0E54841D2B951500762F5A /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0E547E1D2B951500762F5A /* AFURLSessionManager.m */; };
 		BC851DA01D261A97003F0298 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC851D9F1D261A97003F0298 /* main.m */; };
 		BC851DA31D261A97003F0298 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC851DA21D261A97003F0298 /* AppDelegate.m */; };
 		BC851DA61D261A97003F0298 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC851DA51D261A97003F0298 /* ViewController.m */; };
@@ -16,6 +24,9 @@
 		BC851DB11D261A98003F0298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC851DAF1D261A98003F0298 /* LaunchScreen.storyboard */; };
 		BC851DBC1D261A98003F0298 /* JFUpLoadVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC851DBB1D261A98003F0298 /* JFUpLoadVideoTests.m */; };
 		BC851DC71D261A98003F0298 /* JFUpLoadVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC851DC61D261A98003F0298 /* JFUpLoadVideoUITests.m */; };
+		BC851DDD1D261C09003F0298 /* JFCompressionVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = BC851DDC1D261C09003F0298 /* JFCompressionVideo.m */; };
+		BC851DE11D261E0F003F0298 /* UpLoadImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BC851DE01D261E0F003F0298 /* UpLoadImage.m */; };
+		BC851DF91D2620A8003F0298 /* NetWorkManeger.m in Sources */ = {isa = PBXBuildFile; fileRef = BC851DF81D2620A8003F0298 /* NetWorkManeger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC0E546C1D2B94CF00762F5A /* ZYQAssetPicker.Bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYQAssetPicker.Bundle; sourceTree = "<group>"; };
+		BC0E546D1D2B94CF00762F5A /* ZYQAssetPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYQAssetPickerController.h; sourceTree = "<group>"; };
+		BC0E546E1D2B94CF00762F5A /* ZYQAssetPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYQAssetPickerController.m; sourceTree = "<group>"; };
+		BC0E54721D2B951500762F5A /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		BC0E54731D2B951500762F5A /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		BC0E54741D2B951500762F5A /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		BC0E54751D2B951500762F5A /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		BC0E54761D2B951500762F5A /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		BC0E54771D2B951500762F5A /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		BC0E54781D2B951500762F5A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		BC0E54791D2B951500762F5A /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		BC0E547A1D2B951500762F5A /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		BC0E547B1D2B951500762F5A /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		BC0E547C1D2B951500762F5A /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		BC0E547D1D2B951500762F5A /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		BC0E547E1D2B951500762F5A /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		BC851D9B1D261A97003F0298 /* JFUpLoadVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFUpLoadVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC851D9F1D261A97003F0298 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC851DA11D261A97003F0298 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +80,12 @@
 		BC851DC21D261A98003F0298 /* JFUpLoadVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFUpLoadVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC851DC61D261A98003F0298 /* JFUpLoadVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFUpLoadVideoUITests.m; sourceTree = "<group>"; };
 		BC851DC81D261A98003F0298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC851DDB1D261C09003F0298 /* JFCompressionVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCompressionVideo.h; sourceTree = "<group>"; };
+		BC851DDC1D261C09003F0298 /* JFCompressionVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCompressionVideo.m; sourceTree = "<group>"; };
+		BC851DDF1D261E0F003F0298 /* UpLoadImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpLoadImage.h; sourceTree = "<group>"; };
+		BC851DE01D261E0F003F0298 /* UpLoadImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpLoadImage.m; sourceTree = "<group>"; };
+		BC851DF71D2620A8003F0298 /* NetWorkManeger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManeger.h; sourceTree = "<group>"; };
+		BC851DF81D2620A8003F0298 /* NetWorkManeger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManeger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +113,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC0E546B1D2B94CF00762F5A /* ZYQAssetPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E546C1D2B94CF00762F5A /* ZYQAssetPicker.Bundle */,
+				BC0E546D1D2B94CF00762F5A /* ZYQAssetPickerController.h */,
+				BC0E546E1D2B94CF00762F5A /* ZYQAssetPickerController.m */,
+			);
+			path = ZYQAssetPickerController;
+			sourceTree = "<group>";
+		};
+		BC0E54711D2B951500762F5A /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				BC0E54721D2B951500762F5A /* AFHTTPSessionManager.h */,
+				BC0E54731D2B951500762F5A /* AFHTTPSessionManager.m */,
+				BC0E54741D2B951500762F5A /* AFNetworking.h */,
+				BC0E54751D2B951500762F5A /* AFNetworkReachabilityManager.h */,
+				BC0E54761D2B951500762F5A /* AFNetworkReachabilityManager.m */,
+				BC0E54771D2B951500762F5A /* AFSecurityPolicy.h */,
+				BC0E54781D2B951500762F5A /* AFSecurityPolicy.m */,
+				BC0E54791D2B951500762F5A /* AFURLRequestSerialization.h */,
+				BC0E547A1D2B951500762F5A /* AFURLRequestSerialization.m */,
+				BC0E547B1D2B951500762F5A /* AFURLResponseSerialization.h */,
+				BC0E547C1D2B951500762F5A /* AFURLResponseSerialization.m */,
+				BC0E547D1D2B951500762F5A /* AFURLSessionManager.h */,
+				BC0E547E1D2B951500762F5A /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 		BC851D921D261A97003F0298 = {
 			isa = PBXGroup;
 			children = (
@@ -107,8 +170,13 @@
 				BC851DA21D261A97003F0298 /* AppDelegate.m */,
 				BC851DA41D261A97003F0298 /* ViewController.h */,
 				BC851DA51D261A97003F0298 /* ViewController.m */,
+				BC851DF61D2620A8003F0298 /* NetWorking */,
+				BC851DDA1D261C09003F0298 /* JFCompressionVideoHeaper */,
 				BC851DA71D261A98003F0298 /* Main.storyboard */,
+				BC0E546B1D2B94CF00762F5A /* ZYQAssetPickerController */,
+				BC851DDE1D261E0F003F0298 /* UpLoadImage */,
 				BC851DAD1D261A98003F0298 /* Assets.xcassets */,
+				BC0E54711D2B951500762F5A /* AFNetworking */,
 				BC851DAF1D261A98003F0298 /* LaunchScreen.storyboard */,
 				BC851DB21D261A98003F0298 /* Info.plist */,
 				BC851DAA1D261A98003F0298 /* JFUpLoadVideo.xcdatamodeld */,
@@ -141,6 +209,33 @@
 				BC851DC81D261A98003F0298 /* Info.plist */,
 			);
 			path = JFUpLoadVideoUITests;
+			sourceTree = "<group>";
+		};
+		BC851DDA1D261C09003F0298 /* JFCompressionVideoHeaper */ = {
+			isa = PBXGroup;
+			children = (
+				BC851DDB1D261C09003F0298 /* JFCompressionVideo.h */,
+				BC851DDC1D261C09003F0298 /* JFCompressionVideo.m */,
+			);
+			path = JFCompressionVideoHeaper;
+			sourceTree = "<group>";
+		};
+		BC851DDE1D261E0F003F0298 /* UpLoadImage */ = {
+			isa = PBXGroup;
+			children = (
+				BC851DDF1D261E0F003F0298 /* UpLoadImage.h */,
+				BC851DE01D261E0F003F0298 /* UpLoadImage.m */,
+			);
+			path = UpLoadImage;
+			sourceTree = "<group>";
+		};
+		BC851DF61D2620A8003F0298 /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				BC851DF71D2620A8003F0298 /* NetWorkManeger.h */,
+				BC851DF81D2620A8003F0298 /* NetWorkManeger.m */,
+			);
+			path = NetWorking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +305,7 @@
 				TargetAttributes = {
 					BC851D9A1D261A97003F0298 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V8PP3UQBZ4;
 					};
 					BC851DB61D261A98003F0298 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -249,6 +345,7 @@
 				BC851DB11D261A98003F0298 /* LaunchScreen.storyboard in Resources */,
 				BC851DAE1D261A98003F0298 /* Assets.xcassets in Resources */,
 				BC851DA91D261A98003F0298 /* Main.storyboard in Resources */,
+				BC0E546F1D2B94CF00762F5A /* ZYQAssetPicker.Bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +370,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC851DE11D261E0F003F0298 /* UpLoadImage.m in Sources */,
 				BC851DA61D261A97003F0298 /* ViewController.m in Sources */,
+				BC0E54801D2B951500762F5A /* AFNetworkReachabilityManager.m in Sources */,
+				BC0E54841D2B951500762F5A /* AFURLSessionManager.m in Sources */,
+				BC0E54821D2B951500762F5A /* AFURLRequestSerialization.m in Sources */,
 				BC851DA31D261A97003F0298 /* AppDelegate.m in Sources */,
+				BC0E54831D2B951500762F5A /* AFURLResponseSerialization.m in Sources */,
+				BC0E547F1D2B951500762F5A /* AFHTTPSessionManager.m in Sources */,
+				BC851DDD1D261C09003F0298 /* JFCompressionVideo.m in Sources */,
+				BC0E54701D2B94CF00762F5A /* ZYQAssetPickerController.m in Sources */,
 				BC851DAC1D261A98003F0298 /* JFUpLoadVideo.xcdatamodeld in Sources */,
 				BC851DA01D261A97003F0298 /* main.m in Sources */,
+				BC0E54811D2B951500762F5A /* AFSecurityPolicy.m in Sources */,
+				BC851DF91D2620A8003F0298 /* NetWorkManeger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,10 +526,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = JFUpLoadVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alivv.www.JFUpLoadVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -430,10 +540,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = JFUpLoadVideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alivv.www.JFUpLoadVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -502,6 +615,7 @@
 				BC851DCD1D261A98003F0298 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC851DCE1D261A98003F0298 /* Build configuration list for PBXNativeTarget "JFUpLoadVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +624,7 @@
 				BC851DD01D261A98003F0298 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC851DD11D261A98003F0298 /* Build configuration list for PBXNativeTarget "JFUpLoadVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +633,7 @@
 				BC851DD31D261A98003F0298 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
